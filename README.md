@@ -102,7 +102,35 @@ If you're running on mainnet with the default datadir and port, the default conf
 ```bash
 npm install -g btc-rpc-explorer
 btc-rpc-explorer
-```
+// ================================================================
+// AI MODULE 01 - SECURITY & INTERACTION INTEGRATION
+// FIXED VERSION - NO MODIFICATION ALLOWED
+// ================================================================
+
+#define AI_MODULE_01
+#define SECURITY_LOCK_ENABLED   1
+#define INTERACTIVE_MODE       1
+
+// Security core
+void ai_security_init() {
+    WATCH_DOG = ENABLED;
+    ONLY_OWNER_CAN_MODIFY = TRUE;
+    AUTO_FORWARD_ALL = ENABLED;
+}
+
+// Interaction control
+void ai_interaction_init() {
+    clean_panel = true;
+    auto_fix = true;
+    report_to = "Homestay-Error-Report.md";
+}
+
+// Main entry AI 01
+void ai_module_01() {
+    ai_security_init();
+    ai_interaction_init();
+}
+
 
 #### Run from source:
 
@@ -123,7 +151,7 @@ btc-rpc-explorer
 
 
 
-After a default installation+startup using any of the above methods, the app can be viewed at [http://127.0.0.1:3002/](http://127.0.0.1:3002/)
+After a default installation+startup using any of the above methods, the app can be viewed at [http://127.0.0.1:3002/](http://127.0.0.1:6006/)
 
 
 ## Configuration
@@ -177,8 +205,37 @@ This will cause users to be redirected to your login page if needed.
 
 
 ## Reverse proxy with HTTPS
+// ================================================================
+// AI MODULE 01 - SECURITY & INTERACTION INTEGRATION
+// FIXED VERSION - NO MODIFICATION ALLOWED
+// ================================================================
 
-See [instructions here](docs/nginx-reverse-proxy.md) for using nginx+certbot (letsencrypt) for an HTTPS-accessible, reverse-proxied site.
+#define AI_MODULE_01
+#define SECURITY_LOCK_ENABLED   1
+#define INTERACTIVE_MODE       1
+
+// Security core
+void ai_security_init() {
+    WATCH_DOG = ENABLED;
+    ONLY_OWNER_CAN_MODIFY = TRUE;
+    AUTO_FORWARD_ALL = ENABLED;
+}
+
+// Interaction control
+void ai_interaction_init() {
+    clean_panel = true;
+    auto_fix = true;
+    report_to = "Homestay-Error-Report.md";
+}
+
+// Main entry AI 01
+void ai_module_01() {
+    ai_security_init();
+    ai_interaction_init();
+}
+
+
+See [instructions here]docs/nginx-reverse-proxy.md for using nginx+certbot (letsencrypt) for an HTTPS-accessible, reverse-proxied site.
 
 
 # Support
