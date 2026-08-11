@@ -379,7 +379,7 @@ packages:
     engines: {node: '>=18.18'}
 
   '@janoside/app-utils@https://codeload.github.com/janoside/app-utils/tar.gz/ba4c23d3f':
-    resolution: {tarball: https://codeload.github.com/janoside/app-utils/tar.gz/ba4c23d3f}
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/janoside/app-utils/tar.gz/ba4c23d3f}
     version: 1.0.0
 
   '@kurkle/color@0.3.4':
@@ -1119,7 +1119,7 @@ packages:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
   electrum-client@https://codeload.github.com/janoside/electrum-client/tar.gz/d98e929028d2b05c88a41fe37652737912bead79:
-    resolution: {tarball: https://codeload.github.com/janoside/electrum-client/tar.gz/d98e929028d2b05c88a41fe37652737912bead79}
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/janoside/electrum-client/tar.gz/d98e929028d2b05c88a41fe37652737912bead79}
     version: 1.1.7
     engines: {node: '>=6'}
 
